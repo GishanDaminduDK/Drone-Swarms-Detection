@@ -59,9 +59,13 @@ class RadarDataset(Dataset):
         if self.scf_save:
             file_name = data_path.split('/')[-1].split('.')[0]
             if self.scf_index == -1:
+                print("save_path_if")
                 save_path = f'{self.data_dir}scf/{file_name}.pt'
+                print(save_path_if)
             else:
+                print("save_path_else")
                 save_path = f'{self.data_dir}scf_{self.scf_index}/{file_name}.pt'
+                print(save_path_else)
             torch.save(data_tensor, save_path)
 
         if self.clipped:
