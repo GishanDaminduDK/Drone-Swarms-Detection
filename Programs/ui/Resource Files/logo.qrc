@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icons8-radar-96.png</file>
+  </qresource>
+  <qresource prefix="Processing">
+    <file>icons8-processing-32.png</file>
+  </qresource>
+  <qresource prefix="DeepSi">
+    <file>DeepSi Logo.png</file>
+  </qresource>
+  <qresource prefix="close">
+    <file>icons8-close-48.png</file>
+  </qresource>
+  <qresource prefix="reload">
+    <file>icons8-reset-48.png</file>
+  </qresource>
+  <qresource prefix="entc">
+    <file>ENTC logo.png</file>
+  </qresource>
+  <qresource prefix="start">
+    <file>icons8-play-64.png</file>
+  </qresource>
+</RCC>
